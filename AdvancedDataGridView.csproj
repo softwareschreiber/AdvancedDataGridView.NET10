@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Zuby</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\AnyCPU\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutputPath>bin\AnyCPU\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Resources\Images\ColumnHeader_Filtered.png" />
+    <Content Include="Resources\Images\ColumnHeader_FilteredAndOrderedASC.png" />
+    <Content Include="Resources\Images\ColumnHeader_FilteredAndOrderedDESC.png" />
+    <Content Include="Resources\Images\ColumnHeader_OrderedASC.png" />
+    <Content Include="Resources\Images\ColumnHeader_OrderedDESC.png" />
+    <Content Include="Resources\Images\ColumnHeader_SavedFilters.png" />
+    <Content Include="Resources\Images\ColumnHeader_UnFiltered.png" />
+    <Content Include="Resources\Images\MenuStrip_OrderASCbool.png" />
+    <Content Include="Resources\Images\MenuStrip_OrderASCnum.png" />
+    <Content Include="Resources\Images\MenuStrip_OrderASCtxt.png" />
+    <Content Include="Resources\Images\MenuStrip_OrderDESCbool.png" />
+    <Content Include="Resources\Images\MenuStrip_OrderDESCnum.png" />
+    <Content Include="Resources\Images\MenuStrip_OrderDESCtxt.png" />
+    <Content Include="Resources\Images\MenuStrip_ResizeGrip.png" />
+    <Content Include="Resources\Images\SearchToolBar_buttonCaseSensitive.png" />
+    <Content Include="Resources\Images\SearchToolBar_buttonClose.png" />
+    <Content Include="Resources\Images\SearchToolBar_buttonFromBegin.png" />
+    <Content Include="Resources\Images\SearchToolBar_buttonSearch.png" />
+    <Content Include="Resources\Images\SearchToolBar_ButtonWholeWord.png" />
+  </ItemGroup>
+</Project>
